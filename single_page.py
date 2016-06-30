@@ -1,11 +1,15 @@
 from selenium import webdriver
-driver = webdriver.Chrome("/home/ibrahim/Downloads/chromedriver")
-page = "file:///media/ibrahim/Primary/Users/mdibr/Desktop/tet/My%20Folder%20-%20VideoBlocks.html"
+import re
+
+driver = webdriver.Chrome()
+page = "file:///F:/python/videoblocks/My%20Folder%20-%20VideoBlocks.html"
 
 driver.get(page)
 
-full_page = driver.page_source
+classes = driver.find_element_by_id("cool-new-btn")
 
-links = ['test']
 
-full_page.find()
+
+from selenium.webdriver.common.keys import Keys as keys
+
+classes.click()
