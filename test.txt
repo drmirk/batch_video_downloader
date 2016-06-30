@@ -1,0 +1,2296 @@
+<!DOCTYPE html><!--[if lt IE 7 ]>
+<html ng-app="VideoBlocks" class="ie6"> <![endif]--><!--[if IE 7 ]>
+<html ng-app="VideoBlocks" class="ie7"> <![endif]--><!--[if IE 8 ]>
+<html ng-app="VideoBlocks" class="ie8"> <![endif]--><!--[if IE 9 ]>
+<html ng-app="VideoBlocks" class="ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" ng-app="VideoBlocks" ng-strict-di="" class="cssanimations csstransitions csstransforms csstransforms3d ng-scope"><!--<![endif]--><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8" /><script type="text/javascript" src="https://bam.nr-data.net/1/856189673f?a=4085922&amp;v=952.3a19e93&amp;to=Ml1SNhdZCEoDWxULWQsXcxcWTAlUTVUED1QASh8ADFYVFg%3D%3D&amp;rst=4365&amp;ref=https://www.videoblocks.com/member/bins/&amp;ap=161&amp;be=1585&amp;fe=2537&amp;dc=971&amp;af=err,xhr,stn,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1466848198499,%22n%22:0,%22f%22:394,%22dn%22:394,%22dne%22:394,%22c%22:394,%22ce%22:394,%22rq%22:419,%22rp%22:1063,%22rpe%22:1871,%22dl%22:1558,%22di%22:2111,%22ds%22:2556,%22de%22:2703,%22dc%22:4121,%22l%22:4122,%22le%22:4284%7D,%22navigation%22:%7B%7D%7D&amp;at=HhpRQF9DG0Q%3D&amp;jsonp=NREUM.setToken"></script><script type="text/javascript" async="" fk-userid="279" fk-server="app.listenloop.com" src="https://cdn.listenloop.com/assets/featurekicker.js"></script><script src="https://js-agent.newrelic.com/nr-952.min.js"></script><script type="text/javascript" async="" src="https://cdn.heapanalytics.com/js/heap.js"></script><script async="" src="//connect.facebook.net/en_US/fbds.js"></script><script src="//bat.bing.com/bat.js" async=""></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-5G8BQF"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="https://cdn.segment.com/analytics.js/v1/vfYBo29bHPLaZHcwwFh3rBzEChI61QMU/analytics.min.js"></script><script async="" id="cio-tracker" data-site-id="74ed0d4a984100c91dba" src="https://assets.customer.io/assets/track.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgIGVFBbGwcAXFRbBQM="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&amp;&amp;console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&amp;&amp;"function"==typeof console.log&amp;&amp;(s.console=!0,-1!==o.indexOf("dev")&amp;&amp;(s.dev=!0),-1!==o.indexOf("nr_dev")&amp;&amp;(s.nrDev=!0))}catch(c){}s.nrDev&amp;&amp;i.on("internal-error",function(t){r(t.stack)}),s.dev&amp;&amp;i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&amp;&amp;(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&amp;&amp;(t(8),t(7),"addEventListener"in window&amp;&amp;t(5),c.xhrWrappable&amp;&amp;t(9),u=!0)}s.on("fn-start",function(t,e,n){u&amp;&amp;(d+=1)}),s.on("fn-err",function(t,e,n){u&amp;&amp;(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&amp;&amp;!this.thrown&amp;&amp;d&gt;0&amp;&amp;(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&amp;&amp;window.performance.timing&amp;&amp;window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&amp;&amp;(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&amp;&amp;i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&amp;&amp;(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&amp;&amp;!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&amp;&amp;o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&amp;&amp;(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&amp;&amp;s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&amp;&amp;(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState&gt;3&amp;&amp;!e.resolved&amp;&amp;(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&amp;&amp;(g=-g,b.data=g)}function a(){for(var t=0;t&lt;v.length;t++)r([],v[t]);v.length&amp;&amp;(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&amp;&amp;t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;d&gt;r;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&amp;&amp;(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&amp;&amp;(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&amp;&amp;null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&amp;&amp;(p&gt;34||10&gt;p)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&amp;&amp;r){var i=h(r);i&amp;&amp;(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&amp;&amp;(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&amp;&amp;(o.onloadCalled||"function"!=typeof e.onload))&amp;&amp;o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;d&gt;a;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&amp;&amp;!this.xhrGuids[n]&amp;&amp;(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&amp;&amp;this.xhrGuids[n]&amp;&amp;(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&amp;&amp;"load"===t[0]&amp;&amp;f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&amp;&amp;"load"===t[0]&amp;&amp;f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&amp;&amp;("onload"===n&amp;&amp;(this.onload=!0),("load"===(t[0]&amp;&amp;t[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&amp;&amp;f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&amp;&amp;o[1]&amp;&amp;(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&amp;&amp;"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&amp;&amp;(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&amp;&amp;e.port===n.port;return r.sameOrigin=i&amp;&amp;(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(15),a=t(16);"undefined"==typeof window.newrelic&amp;&amp;(newrelic=NREUM);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&amp;&amp;(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&amp;&amp;t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&amp;&amp;t instanceof ArrayBuffer&amp;&amp;t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&amp;&amp;t instanceof Blob&amp;&amp;t.size)return t.size;if(!("undefined"!=typeof FormData&amp;&amp;t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&amp;&amp;(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&amp;&amp;(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&amp;&amp;(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0&gt;o?0:o);++r&lt;o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&amp;&amp;"function"==typeof t&amp;&amp;t.apply&amp;&amp;!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c&lt;n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&amp;&amp;Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&amp;&amp;(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&amp;&amp;t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&amp;&amp;t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s&gt;c;c++)a[c].apply(i,r);var u=f[w[n]];return u&amp;&amp;u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&amp;&amp;"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&amp;&amp;t.licenseKey&amp;&amp;t.applicationID&amp;&amp;e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&amp;&amp;i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&amp;&amp;p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-952.min.js"},v=p&amp;&amp;h&amp;&amp;h[d]&amp;&amp;!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+    <base href="/" />
+    <title>Folder - VideoBlocks</title>
+
+    
+    
+            <meta name="robots" content="noindex, follow" />
+    
+    
+            <link rel="alternate" href="https://www.videoblocks.com/member/bins/" hreflang="en" />
+            <link rel="alternate" href="https://www.videoblocks.com/member/bins/" hreflang="x-default" />
+            <link rel="alternate" href="https://nl.videoblocks.com/member/bins/" hreflang="nl" />
+            <link rel="alternate" href="https://fr.videoblocks.com/member/bins/" hreflang="fr" />
+            <link rel="alternate" href="https://de.videoblocks.com/member/bins/" hreflang="de" />
+            <link rel="alternate" href="https://it.videoblocks.com/member/bins/" hreflang="it" />
+            <link rel="alternate" href="https://ja.videoblocks.com/member/bins/" hreflang="ja" />
+            <link rel="alternate" href="https://ko.videoblocks.com/member/bins/" hreflang="ko" />
+            <link rel="alternate" href="https://br.videoblocks.com/member/bins/" hreflang="pt" />
+            <link rel="alternate" href="https://ru.videoblocks.com/member/bins/" hreflang="ru" />
+            <link rel="alternate" href="https://es.videoblocks.com/member/bins/" hreflang="es" />
+    
+    
+    
+    
+    <meta name="wot-verification" content="2020a5c4413ae3aa06fd" />
+    <meta name="p:domain_verify" content="418b32d064bae1ba7c2be39ef3b81fc7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/favicons/apple-touch-icon.png" />
+
+    
+    
+    
+    
+    
+        <link href="https://d1ow200m9i3wyh.cloudfront.net/css/e07d7238cd6e9965318828fceae07cc7.css" rel="stylesheet" type="text/css" media="screen" />
+
+    
+            <script type="text/javascript">
+              var _cio = _cio || [];
+              (function() {
+                var a,b,c;a=function(f){return function(){_cio.push([f].
+                concat(Array.prototype.slice.call(arguments,0)))}};b=["load","identify",
+                "sidentify","track","page"];for(c=0;c&lt;b.length;c++){_cio[b[c]]=a(b[c])};
+                var t = document.createElement('script'),
+                    s = document.getElementsByTagName('script')[0];
+                t.async = true;
+                t.id    = 'cio-tracker';
+                t.setAttribute('data-site-id', '74ed0d4a984100c91dba');
+                t.src = 'https://assets.customer.io/assets/track.js';
+                s.parentNode.insertBefore(t, s);
+              })();
+            </script>
+
+                <script type="text/javascript">
+                    _cio.identify({
+                        /* Required attributes */
+                        id: '1821527',
+                        email: 'mukimscreation@gmail.com',
+                        created_at: 1399624346
+                    });
+                </script>
+<script type="text/javascript">dataLayer = [{"isLoggedIn":true,"visitorCookieId":"4192608ba633afdafdaa0918a9ff7ac03dd44b1a1e476bc159b88d8d44851fcf","visitorCanSeeFreeTrial":false,"campaignOfferHook":"NA","segmentIOId":"1821527","memberId":477529,"email":"mukimscreation@gmail.com","uniqueId":"GWAJCnxhVcIrIVR","status":"active","dateSigned":1399624346,"isOnTrial":false,"isPremium":1,"daysLeftUntilNextBill":290,"cardExpirationTimestamp":1488344400,"daysLeftUntilCardExpires":248,"subscriptionEndDate":1491883200,"planId":4300,"planBillingIntervalDays":365,"planBillingAmount":198,"planTypeName":"Premium","planDescription":"90% Off a Year of Premium Features - Just $198","planTitle":"$198/year Premium Subscription","planIsFreeTrial":0,"planFreeTrialDays":null,"planTotalDownloadsRemaining":null,"planDailyDownloadsRemaining":null,"trialTotalDownloadsRemaining":null,"trialDailyDownloadsRemaining":null}]</script>
+        <script type="text/javascript">
+            !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&amp;&amp;console.error&amp;&amp;console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t&lt;analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.async=true;n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+                analytics.load("vfYBo29bHPLaZHcwwFh3rBzEChI61QMU");
+                analytics.page();                analytics.ready(function(){
+                    if (window._sdl &amp;&amp; window._sdl.visitorData &amp;&amp; _sdl.visitorData.segmentIOId) {
+                        analytics.identify(window._sdl.visitorData.segmentIOId, window._sdl.visitorData);
+                    } else {
+                        analytics.identify('4192608ba633afdafdaa0918a9ff7ac03dd44b1a1e476bc159b88d8d44851fcf');
+                    }
+                });
+
+            }}();
+        </script>
+            <script type="text/javascript">
+
+                var _gaq = _gaq || [];            _gaq.push(['notSegmentTracker._setAccount', 'UA-223413-2']);
+            _gaq.push(['notSegmentTracker._trackPageview']);                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+
+            </script>
+
+        <!-- Google Tag Manager -->
+        <noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-5G8BQF" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5G8BQF');</script>
+        <!-- End Google Tag Manager -->
+
+<script async="" src="//static.hotjar.com/c/hotjar-45020.js?sv=5"></script><script src="https://script.hotjar.com/modules-e12a7ede294d22ffa3a8a711155156e3.js"></script><style type="text/css">.js-slide-hidden{position:absolute !important;left:-9999px !important;top:-9999px !important;display:block !important}</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset&gt;div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title&gt;span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><link rel="stylesheet" href="https://cdn.listenloop.com/assets/featurekicker.css" type="text/css" /></head>
+<body class="wp-theme-2 machine logged-in site-videoblocks cross-sell-bar">
+
+            <div id="fb-root" class=" fb_reset"><script async="" src="https://connect.facebook.net/en_US/all.js"></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter.php?version=42#channel=f1b0c69828907c8&amp;origin=https%3A%2F%2Fwww.videoblocks.com" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+            <script>
+                window.fbAsyncInit = function() {
+                    FB.init({appId: '370974326268070', status: true, cookie: true,
+                        xfbml: true});
+                };
+                (function() {
+                    var e = document.createElement('script'); e.async = true;
+                    e.src = document.location.protocol +
+                        '//connect.facebook.net/en_US/all.js';
+                    document.getElementById('fb-root').appendChild(e);
+                }());
+            </script>
+
+<div class="wrapper ">
+
+        <div class="navbar-fixed-top">
+                <div id="cross-sell-top-bar" style="display: block;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-7 col-sm-10 col-md-8 col-lg-6">
+                <nav class="application-nav">
+                    <ul>
+                        <li class="video active" title="Royalty free stock video, footage, backgrounds and more">
+                            <a href="#" class="disabled" target="_blank">
+                                <img class="hidden-xs fixed-dimensions" src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/crosssell-topbar/logo-videoblocks.svg" alt="Videoblocks" width="166" height="27" />
+                                <img class="visible-xs" src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/crosssell-topbar/logo-small.png" alt="Videoblocks" width="30" height="27" />
+                            </a>
+                        </li>
+
+                        <li class="graphic" title="Royalty free stock photos, vectors, illustrations and more">
+                            <a href="https://www.graphicstock.com/?utm_source=VBtoGSXSellV3-member&amp;utm_campaign=direct&amp;utm_medium=XSell" target="_blank">
+                                <img class="hidden-xs fixed-dimensions" src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/crosssell-topbar/logo-graphicstock.svg" alt="Graphic Stock" width="144" height="27" />
+                                <img class="visible-xs" src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/crosssell-topbar/logo-graphic-stock-small.png" alt="Graphic Stock" width="36" height="33" />
+                            </a>
+                        </li>
+
+                        <li class="audio" title="Royalty free stock audio, special effects and more">
+                            <a href="https://www.audioblocks.com/?utm_source=VBtoABXSellV3-member&amp;utm_campaign=direct&amp;utm_medium=XSell" target="_blank">
+                                <img class="hidden-xs fixed-dimensions" src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/crosssell-topbar/logo-audioblocks.svg" alt="Audioblocks" width="120" height="27" />
+                                <img class="visible-xs" src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/crosssell-topbar/logo-audioblocks-small.png" alt="Audioblocks" width="33" height="28" />
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hidden-xs hidden-sm hidden-md col-lg-6">
+                <span class="statement">Looking for photos, graphics or audio? Visit our sister sites for more.</span>
+            </div>
+                    </div>
+    </div>
+</div>
+<header>
+
+    
+            <div class="navbar navbar-white " role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                                            <button type="button" class="cart-button-mobile navbar-toggle">
+                            <a href="/checkout/view/" class="cart-button">
+                                <i class="icon-shopping-cart"></i>
+                                <span class="cart-count">0</span>
+                            </a>
+                        </button>
+                                        <a class="navbar-brand" href="/">
+                        <img src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png" alt="VideoBlocks.com" />
+                    </a>
+                </div>
+
+                
+                <div class="main-nav-collapse navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown video-drop">
+                            <a href="/videos/footage" class="dropdown-toggle browse-stock-video-link" data-hover="dropdown" data-close-others="true">Footage</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="dropdown-style-switcher">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><span class=""></span><a href="/videos/footage">Stock Footage</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="pull-right">
+                                                    <a href="/member/explore/"><i class="fa fa-globe"></i>
+                                                        Explore all content</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form class="form-light ng-pristine ng-valid">
+
+                                            <div class="row slice bg-5 margin-t-15">
+
+                                                <div class="col-xs-12">
+                                                    <strong class="underline"></strong>
+                                                    <ul class="list-unstyled">
+
+                                                        <div class="row category-widget">
+    <div class="col-xs-12 mini-categories">
+        <div class="col-md-12">
+
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/360-files">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/360.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/360-files">360°/VR</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/aerial">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/aerial.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/aerial">Aerial</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/animals">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/animal.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/animals">Animals</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/business-and-professions">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/businessprof.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/business-and-professions">Business and Professions</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/effects-and-lower-thirds">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/aftereffects/effectsandlt.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/effects-and-lower-thirds">Effects and Lower Thirds</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/food-and-beverage">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/food.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/food-and-beverage">Food and Beverage</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/historical-and-archival">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/historical.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/historical-and-archival">Historical and Archival</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/holidays-and-celebrations">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/holidays.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/holidays-and-celebrations">Holidays and Celebrations</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/nature">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/nature.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/nature">Nature</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/people">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/people.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/people">People</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/places-and-landmarks">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/buildings.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/places-and-landmarks">Places and Landmarks</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/slow-motion">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/slowmo.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/slow-motion">Slow Motion</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/sports-and-recreation">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/sports.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/sports-and-recreation">Sports and Recreation</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/technology">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/technology.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/technology">Technology</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/time-lapse">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/timelapse.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/time-lapse">Time Lapse</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/footage/transportation">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/footage/transportation.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/footage/transportation">Transportation</a></h5>
+                                            </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown motion-bg-drop">
+                            <a href="/videos/motion-backgrounds" class="dropdown-toggle browse-motion-backgrounds-link" data-hover="dropdown" data-close-others="true">Backgrounds</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="dropdown-style-switcher">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><span class=""></span><a href="/videos/motion-backgrounds">Motion Backgrounds</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="pull-right">
+                                                    <a href="/member/explore/"><i class="fa fa-globe"></i>
+                                                        Explore all content</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form class="form-light ng-pristine ng-valid">
+
+                                            <div class="row slice bg-5 margin-t-15">
+
+                                                <div class="col-xs-12">
+                                                    <ul class="list-unstyled">
+
+                                                        <div class="row category-widget">
+    <div class="col-xs-12 mini-categories">
+        <div class="col-md-12">
+
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/abstract">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/abstract.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/abstract">Abstract</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/business">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/business.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/business">Business</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/space">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/space.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/space">Space</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/fire">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/fire.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/fire">Fire</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/flowers">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/flowers.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/flowers">Flowers</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/energy">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/energy.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/energy">Energy</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/particles">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/particles.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/particles">Particles</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/water">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/water.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/water">Water</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/love">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/love.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/love">Love</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/countdown">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/countdown.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/countdown">Countdown</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/medical">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/medical.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/medical">Medical</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/science">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/science.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/science">Science</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/music">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/music.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/music">Music</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/technology">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/technology.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/technology">Technology</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/religion">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/religion.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/religion">Religion</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/motion-backgrounds/shapes">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/motionbackgrounds/shapes.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/motion-backgrounds/shapes">Shapes</a></h5>
+                                            </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown templates-drop">
+                            <a href="/videos/templates" class="dropdown-toggle browse-after-effects-link" data-hover="dropdown" data-close-others="true">After Effects</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="dropdown-style-switcher">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4><span class=""></span><a href="/videos/templates">After Effects Templates</a></h4>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="pull-right">
+                                                    <a href="/member/explore/"><i class="fa fa-globe"></i>
+                                                        Explore all content</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form class="form-light ng-pristine ng-valid">
+
+                                            <div class="row slice bg-5 margin-t-15">
+
+                                                <div class="col-xs-12">
+                                                    <strong class="underline"></strong>
+                                                    <ul class="list-unstyled">
+
+                                                        <div class="row category-widget">
+    <div class="col-xs-12 mini-categories">
+        <div class="col-md-12">
+
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/intro">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/intro.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/intro">Intro</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/business">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/biztemp.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/business">Business</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/logo+reveal">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/logo.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/logo+reveal">Logo Reveal</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/typography">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/type.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/typography">Typography</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/presentation">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/presentation.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/presentation">Presentation</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/slideshow">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/slideshow.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/slideshow">Slideshow</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/promo">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/promo.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/promo">Promo</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/cinematic">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/cinematic.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/cinematic">Cinematic</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/titles">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/titles.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/titles">Titles</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/ae-templates/photo">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/full/aftereffects/photo.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/ae-templates/photo">Photo</a></h5>
+                                            </div>
+                </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 category">
+                    <a href="/videos/templates/apple-motion-templates">
+                        <div class="bg-overlay">
+                            <div class="category-bg" style="background-image: url(https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/categories/mini/aftereffects/motion.jpg);"></div>
+                        </div>
+                    </a>
+
+                    <div class="category-content-wrapper ">
+                        <h5 class="category-title"><a href="/videos/templates/apple-motion-templates">Apple Motion Templates</a></h5>
+                                            </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                                                    <li class="cart-button hidden-xs">
+                                <a href="/checkout/view/" class="cart-button">
+                                    <i class="icon-shopping-cart"></i>
+                                    <span class="cart-count">0</span>
+                                </a>
+                            </li>
+                        
+                                                    <li class="dropdown account-drop" id="account-dropdown">
+                                <a id="account-dropdown-account-link" href="/member/profile/" class="dropdown-toggle member-dashboard-link" data-hover="dropdown" data-close-others="true">
+                                    <span class="glyphicon glyphicon-cog"></span>
+                                    Account
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="/member/explore/">
+                                            <span class="pull-left">Explore</span>
+                                            <span class="glyphicon glyphicon-globe pull-right"></span>
+                                        </a>
+                                    </li>
+                                                                            <li>
+                                            <a href="/member/profile/">
+                                                <span class="pull-left">My Account</span>
+                                                <span class="glyphicon glyphicon-cog pull-right"></span>
+                                            </a>
+                                        </li>
+                                                                                                                <li>
+                                            <a href="/member/downloads/">
+                                                <span class="pull-left">My Downloads</span>
+                                                <span class="glyphicon glyphicon-cloud-download pull-right"></span>
+                                            </a>
+                                        </li>
+
+                                                                                                                            <li>
+                                                <a href="/member/purchases">
+                                                    <span class="pull-left">My Purchases</span>
+                                                    <span class="glyphicon glyphicon-credit-card pull-right"></span>
+                                                </a>
+                                            </li>
+                                        
+                                                                                                                <li>
+                                            <a href="/member/bins/">
+                                                <span class="pull-left">Project Folders</span>
+                                                <span class="glyphicon glyphicon-folder-open pull-right"></span></a>
+                                        </li>
+                                                                        <li>
+                                        <a href="http://support.videoblocks.com/" target="_blank">
+                                            <span class="pull-left">Support</span>
+                                            <span class="glyphicon glyphicon-user pull-right"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="member-account-logout" href="/member/logout/">
+                                            <span class="pull-left">Logout</span>
+                                            <span class="glyphicon glyphicon-log-out pull-right"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        
+                                                                                                                                            </ul>
+
+
+                    <div class="col-lg-4 col-md-3 col-sm-12 no-padding" id="srch-wrapper">
+                        <form class="navbar-form navbar-left navbar-search ng-pristine ng-valid" role="search" action="/search-process/">
+                            <div class="input-group ui-widget">
+                                <div class="main-nav-search-wrapper">
+                                    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" class="form-control autocomplete-video ui-autocomplete-input" placeholder="Search for videos..." value="" name="srch-term" id="srch-term" autocomplete="off" />
+                                    <span id="as-search-clear" class="searchclear glyphicon glyphicon-remove-circle" style="display: none;"></span>
+                                </div>
+                                <div class="input-group-btn">
+                                    <button class="btn btn-two" type="submit" id="srch-btn">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <!--/.nav-collapse -->
+                
+                            </div>
+        </div>
+
+    </header>
+
+            </div>
+
+    
+<section id="checkout-cart-dropdown-section" data-enabled="false">
+    <div class="checkout-cart-dropdown">
+        <section id="view-shopping-cart">
+            <form class="container ng-pristine ng-valid" method="POST" action="/checkout/process-view/" id="checkout-view">
+
+                <div class="row shopping-cart">
+                    <div class="row button-row">
+                        <div class="col-sm-12">
+                            <ul id="checkout-steps">
+                                <li class="active">
+                                    <span class="indicator">1</span> Shopping Cart
+                                </li>
+                                <li>
+                                    <span class="indicator">2</span> Billing Info
+                                </li>
+                                <li>
+                                    <span class="indicator">3</span> Download Purchases
+                                </li>
+                            </ul>
+                            <div class="text-right pull-right">
+                                <button type="button" class="btn btn-white-flat btn-hide-cart-dropdown">Continue Shopping</button>
+
+                                <button type="submit" class="btn btn-blue-flat">Checkout <i class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row button-row">
+                    <div class="col-sm-12 text-right">
+                        <button type="button" class="btn btn-white-flat btn-hide-cart-dropdown">Continue Shopping</button>
+
+                        <button type="submit" class="btn btn-blue-flat">Checkout <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+    </div>
+    <div class="checkout-cart-dropdown-overlay"></div>
+</section>
+    
+            <section class="first" id="member-sub-nav-widget">
+            <div class="navbar-sub-member navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#members-subnav">
+                <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">
+                        <a href="/member/explore/">
+                            Explore Content
+                        </a>
+                    </span>
+                    <span class="icon-bar">
+                        <a href="/member/downloads/">
+                            My Downloads
+                        </a>
+                    </span>
+                    <span class="icon-bar">
+                        <a href="/member/bins/">
+                            Project Folders
+                        </a>
+                    </span>
+                    <span class="icon-bar">
+                        <a href="/member/profile/">
+                            My Account
+                        </a>
+                    </span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="members-subnav">
+            <ul class="nav navbar-nav">
+                <li class="">
+                    <a href="/member/explore/">
+                        Explore
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/member/downloads/">
+                        My Downloads
+                    </a>
+                </li>
+                                    <li class="">
+                        <a href="/member/purchases">
+                            My Purchases
+                        </a>
+                    </li>
+                                <li class="active">
+                    <a href="/member/bins/">
+                        Project Folders
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/member/profile/">
+                        My Account
+                    </a>
+                </li>
+
+                                    <li>
+                        <a href="/member/sub-members/">
+                            SubMembers
+                        </a>
+                    </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right hidden-xs" id="referral-badge">
+                    <li>
+                            <span class="badge">
+                                <a href="/member/refer/">
+                                    Refer and Get Rewarded
+                                </a>
+                            </span>
+                    </li>
+                </ul>
+                    </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+
+        </section>
+    
+            <section class="bg-3">
+            <div class="container bg-3">
+                <div class="row">
+
+                    <section>
+    <div class="row">
+        <div class="container">
+            <div class="row project-bin-header">
+                <div class="row pull-left col-lg-4">
+                    <h4>My Project
+                        <span class="notranslate">Folders                            <span id="project-bins-count-label" class="notranslate">(10)</span>
+                        </span>
+                    </h4>
+                </div>
+
+                <div class="col-lg-7 pull-right">
+
+                    <div class="col-no-padding col-lg-4 pull-right" id="project-bin-new-btn">
+                        <a class="btn btn-two new-bin">Add a
+                            New <span class="notranslate">Folder</span></a>
+                    </div>
+
+                    <div class="col-no-padding col-lg-4 pull-right ">
+                        <form class="navbar-form navbar-left ng-pristine ng-valid" role="search">
+                            <div class="input-group ui-widget">
+                                <input type="text" class="form-control" placeholder="Search Project Bins" id="project-bins-search-input" />
+                                <span id="bins-searchclear" class="searchclear glyphicon glyphicon-remove-circle" style="display: none;"></span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-no-padding col-lg-3 pull-right ">
+                        
+<select id="project-bins-sort-select" name="project_bin_sort_type" class="selectpicker form-control&#10;                      show-menu-arrow                                     " data-style="btn-five" data-width="100%" data-selected-text-format="count&gt;2" style="display: none;">
+
+    
+        <option value="Date Created">
+            Date Created        </option>
+
+    
+        <option value="Name">
+            Name        </option>
+
+    
+        <option value="Clip Count">
+            Clip Count        </option>
+
+    
+</select><div class="btn-group bootstrap-select form-control show-menu-arrow" style="width: 100%;"><button type="button" class="btn dropdown-toggle selectpicker btn-five" data-toggle="dropdown" data-id="project-bins-sort-select" title="Date Created"><span class="filter-option pull-left">
+            Date Created        </span> <span class="caret"></span></button><div class="dropdown-menu open"><ul class="dropdown-menu inner selectpicker" role="menu"><li rel="0" class="selected"><a tabindex="0" class="" style=""><span class="text">
+            Date Created        </span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li><li rel="1"><a tabindex="0" class="" style=""><span class="text">
+            Name        </span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li><li rel="2"><a tabindex="0" class="" style=""><span class="text">
+            Clip Count        </span><i class="glyphicon glyphicon-ok icon-ok check-mark"></i></a></li></ul></div></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div id="project-bins-explorer-widget-wrapper">
+
+ 
+ <div class="project-bin-folder col-lg-3" id="19WCDSsptjYkFyQ">
+ <div class="w-box uncategorized white-bg">
+ <a href="/member/bin/view/19WCDSsptjYkFyQ">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/kites-looping-in-the-sky_-kbnbnzzh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/floral-swirl_zyn33e-zh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/19WCDSsptjYkFyQ">Uncategorized</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">2</span> Clips
+ </span>
+
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="Nm93E8Tg8t2DoilpXFlAbFD3P">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/Nm93E8Tg8t2DoilpXFlAbFD3P">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/abstract-rainbow_wjpctkdes__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/glitch-abstract-nyc-traffic_wj4axbb-h__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/abstract-green_b10kglver__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/abstract-purple-and-magenta-sparks_-1h3xxpgb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/purple-abstract_zj8cie3ls__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/abstract-purple-green-background_-j9su9z-b__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/abstract-visualization-of-yellow-fireflies_z1x9wkuxb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/soft-abstract-blue-swirl_bkzhf9wwb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GTYSdDW/4k-ultra-hd-abstract-nebula-space-creative-galaxy-background_nybzvmxi__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/Nm93E8Tg8t2DoilpXFlAbFD3P">abstract</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">40</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="Nm93E8Tg8t2DoilpXFlAbFD3P "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="NfJVjBi195nTN4rEMXd0o2UDo">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/NfJVjBi195nTN4rEMXd0o2UDo">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/falling-music-notes_wy0d5iyeh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/fast-pulsing-light-bars_b15hx8bzr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/volume-level-fader_-1jj2sbbb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/colorful-shifting-liquid-hues_zjic_qzzr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/bending-light-streaks_zky-bmwwh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/speaker-blasting-music_w1paxrwwh__S0004.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/level-equalizer_w1eogmbzb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/sharp-equalizer_wy-n_7bzb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/four-track-colorful-equalizer_by7wmxwwh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/NfJVjBi195nTN4rEMXd0o2UDo">music</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">77</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="NfJVjBi195nTN4rEMXd0o2UDo "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="ImXMujOd7L30a5t5ejUwUvvgh">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/ImXMujOd7L30a5t5ejUwUvvgh">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/wacky-retro-lines-and-shapes_wj0y4btlh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/the-face-of-god-is-madness_wy23wl2xh__S0001.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/random-spinning-propellars_wyhcpv8lb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/flying-over-blue-cloud-shapes_wjjynywzs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/orange-hexagons_-y5yzsngs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/blue-circle-patchwork_zkhm-4tgb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/flowing-red-abstract-shape_-j0x2pilh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/overlapping-opaque-circles-oscillate_zyigoyulb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/swirling-lines_byu3pnbws__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/ImXMujOd7L30a5t5ejUwUvvgh">shapes</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">40</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="ImXMujOd7L30a5t5ejUwUvvgh "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="Hr1fN6e8g8Pk63BntS9mcu1ng">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/Hr1fN6e8g8Pk63BntS9mcu1ng">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/shining-love_b1k9jxteb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/lips_zko5ebbbr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/movement-light-line-loves_zyyqzmver__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/incoming-paper-hearts_z1muregzr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/lovely-purple-lace_bk-goqtgr__S0001.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hearts-through-hearts_-krrcxfxr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/lovely-lace-pink_zyjcamyeh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/pink-flower-with-love_-kcnpwigs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/macro-rose-blooming_wkj3erzwh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/Hr1fN6e8g8Pk63BntS9mcu1ng">love</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">19</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="Hr1fN6e8g8Pk63BntS9mcu1ng "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="sNw26WaeyU5ISyfHtLWvSXP6R">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/sNw26WaeyU5ISyfHtLWvSXP6R">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/green-and-white-flourishes-and-flowers-2_-k4tzevgb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/grassy-field-with-flowers-and-trees-4_zjkgasoes__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/green-and-white-flourishes-and-flowers_w1rbflpgr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/sunset-through-some-flowers-2_w1tsd5oeh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/funky-retro-flowers_-yiprgwxs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/sunset-through-some-flowers_wy3fd9ugs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/spring-flowers-garden-pool_wkjfphqeb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/spinning-kaleidoscope-flower_-1-vmm-ws__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/orange-yellow-black-and-brown-flowers-turning_zkpu7foxb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/sNw26WaeyU5ISyfHtLWvSXP6R">flower</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">20</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="sNw26WaeyU5ISyfHtLWvSXP6R "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="WuZkEXCJcl9ilpZRkIjpWrAEV">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/WuZkEXCJcl9ilpZRkIjpWrAEV">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/film-strip__S0002.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/old/vbpreviews/thumbs/ae-template-glass-sketch_f1Z_2Dfd.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/logo-pieces__S0002.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/old/vbpreviews/thumbs/ae-template-momentum_MkPhjwzd.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/armored__S0002.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="" class="img-responsive thumbnail-img empty" />
+ </div>
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/WuZkEXCJcl9ilpZRkIjpWrAEV">After_Effect_Test</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">5</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="WuZkEXCJcl9ilpZRkIjpWrAEV "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="zfUAvnJQZBYEd3nUfLOFlvqFF">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/zfUAvnJQZBYEd3nUfLOFlvqFF">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-soaring-bald-eagle-closeup_wjidsx3lb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-splashing-water_bj0y87deh__S0002.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-rain-on-plant_-kq_kjogb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-mo-autumn-leaves-floating-to-the-ground_bjc-b4hls__S0001.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-water-droplets-on-gerber-daisy_byjoumvlh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-blue-smoke_-yi6dqvlr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-autumn-leaves-falling-from-branch_-ka1vn2er__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-mo-fall-leaves-against-blazing-blue-sky_wkbhbengs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-burning-red-roses_byyqh7peh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/zfUAvnJQZBYEd3nUfLOFlvqFF">slow mo</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">12</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="zfUAvnJQZBYEd3nUfLOFlvqFF "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="cFnuEiuA1lsQLUtiLwdARHxTz">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/cFnuEiuA1lsQLUtiLwdARHxTz">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/cars-and-trucks-on-freeway-aerial_zjvzffg-r__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aerial-night-shot-panning-past-new-york-ge-building_wkl4g9gzs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aerial-lift-to-beautiful-sunrise-over-beach_wkcpqozzb__S0003.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/vibrant-sunrise-over-beach-aerial_-jxbn2b-r__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aerial-shot-over-vast-ocean_wjjhz2wbh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/tracking-along-forest-treetops-aerial_wk7-arces__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aerial-over-vast-ocean_-y_t2obwb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aerial-view-of-sunset-over-sound_-jsdjiz-h__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/aerial-shot-of-cowboys-on-mountaintop_wytxsahgb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/cFnuEiuA1lsQLUtiLwdARHxTz">aerial</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">11</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="cFnuEiuA1lsQLUtiLwdARHxTz "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+
+ 
+ <div class="project-bin-folder col-lg-3" id="quUmDkhhBeDK2cM2wx9m9MTcC">
+ <div class="w-box white-bg">
+ <a href="/member/bin/view/quUmDkhhBeDK2cM2wx9m9MTcC">
+ <div class="project-bin-folder-thumbnails-wrapper ">
+
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/slow-motion-rain-on-plant_-kq_kjogb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rain-on-the-window-in-a-roaring-40s-storm_-y3trqols__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rain-at-night_-12nqzpeh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/traffic-fights-through-pounding-rain-at-intersection_wye2abjgr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/raining-star_-1ouugplb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rain-drops-on-amazon-river_w1apn75mh__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/autumn-scene-rain_wkeq1pllr__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rain-on-cobblestone-portobelo-panama_zyaoyozbs__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ 
+ <div class="project-bin-folder-item-thumb col-xs-4">
+ <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hard-rain-on-leaves-close_-jkulb9qb__S0000.jpg" class="img-responsive thumbnail-img empty" />
+ </div>
+ 
+ 
+ </div>
+ </a>
+
+ <div class="controls">
+ <div class="col-lg-8 controls-bin-title">
+ <span class="machine"><a class="" href="/member/bin/view/quUmDkhhBeDK2cM2wx9m9MTcC">rain</a></span>
+ </div>
+ <div class="col-lg-4 controls-bin-info pull-right">
+
+ <span class="controls-bin-clip-count pull-right">
+ <span class="notranslate">23</span> Clips
+ </span>
+
+ <div class="controls-bin-actions">
+ <div class="col-lg-1 pull-right">
+ <a class="delete-bin" role="button" title="Delete Folder" data-id="quUmDkhhBeDK2cM2wx9m9MTcC "><span class="glyphicon glyphicon-trash"></span></a>
+ </div>
+ <!-- <div class="col-lg-1 pull-right">-->
+ <!-- <a class="edit-bin" role="button"><i class="fa fa-edit fa-lg"></i></a>-->
+ <!-- </div>-->
+ </div>
+ 
+ </div>
+ </div>
+
+ </div>
+ </div>
+
+</div>
+            </div>
+
+            <div class="row">
+                <div class="table-responsive">
+                    <div id="project-bins-datatable_wrapper" class="dataTables_wrapper form-inline no-footer"><table class="table row-bordered nowrap hide dataTable no-footer" id="project-bins-datatable" role="grid">
+                        <thead>
+                        <tr role="row"><th class="bin-name sorting_asc" tabindex="0" aria-controls="project-bins-datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label=": activate to sort column descending"></th></tr>
+                        </thead>
+                        <tbody>
+                        
+                        <tr role="row" class="odd"><td class="sorting_1">Uncategorized</td></tr><tr role="row" class="even"><td class="sorting_1">abstract</td></tr><tr role="row" class="odd"><td class="sorting_1">music</td></tr><tr role="row" class="even"><td class="sorting_1">shapes</td></tr><tr role="row" class="odd"><td class="sorting_1">love</td></tr><tr role="row" class="even"><td class="sorting_1">flower</td></tr><tr role="row" class="odd"><td class="sorting_1">After_Effect_Test</td></tr><tr role="row" class="even"><td class="sorting_1">slow mo</td></tr><tr role="row" class="odd"><td class="sorting_1">aerial</td></tr><tr role="row" class="even"><td class="sorting_1">rain</td></tr></tbody>
+                    </table><div class="dataTables_paginate paging_bootstrap" id="project-bins-datatable_paginate"><ul class="pagination"><li class="prev disabled"><a href="#">← Previous</a></li><li class="active"><a href="#">1</a></li><li class="next disabled"><a href="#">Next → </a></li></ul></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="modal fade " id="new-bin-modal" tabindex="-1" role="dialog" aria-labelledby="new-bin" aria-hidden="true">
+    <div class="modal-dialog custom-width">
+        <div class="modal-content">
+
+                            <div class="modal-heading modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    
+                    <h4 class="modal-title" id="myModalLabel">Add a new Folder</h4>
+                </div>
+            
+            <div class="modal-body">
+    <div id="new-bin-message-placeholder"></div>
+    <div class="row">
+    <div class="col-md-12">
+
+        <form action="#" method="POST" class="form-horizontal new-bin validate ng-pristine ng-valid" id="new-bin" novalidate="novalidate">
+
+            <div class="row">
+                <div class="col-md-12 form-inputs">
+                    
+<div class="form-group">
+                        <div class="col-sm-2">
+                <label class=" " for="new-bin-binname">Folder name                    </label>
+        </div>
+            <div class="col-sm-10">
+                <input type="text" name="binname" id="new-bin-binname" class="form-control binname" placeholder="Please enter a name for the Folder" />
+                    </div>
+</div><div class="form-group">
+    <div class="col-sm-2">
+        <label id="" class="control-label " for="bindescription">Description</label>
+    </div>
+    <div class="col-sm-10">
+         <textarea name="bindescription" id="new-bin-bindescription" class="&#10;                        form-control&#10;                                       " placeholder="Please enter a description for the Folder"></textarea>
+    </div>
+</div>
+
+                    
+                                            <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2 ">
+        <button id="new-bin-submit" type="submit" class="btn pull-left btn-primary pull-left">Add Folder</button>    </div>
+</div>
+
+                        
+                                    </div>
+
+                
+            </div>
+
+            
+
+        </form>
+    </div>
+</div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+</section>
+                </div>
+            </div>
+        </section>
+    
+    <footer>
+    <div class="container">
+
+        
+            <div class="row">
+                <div class="col-md-2 col-sm-6">
+                    <div class="col">
+                        <h4>Browse Clips</h4>
+                        <ul>
+                            <li><a href="/videos?video_quality=4K">4K Videos</a></li>
+                            <li><a href="/videos/footage">Stock Videos</a></li>
+                            <li><a href="/videos/motion-backgrounds">Motion Backgrounds</a></li>
+                            <li><a href="/videos/templates">After Effects Templates</a></li>
+                            <li>
+                                <a href="/explore/" class="explore-btn">
+                                    <i class="fa fa-globe"></i> Explore
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="col">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="http://www.wearevideoblocks.com/" target="_blank">About VideoBlocks</a></li>
+                            <li><a href="https://contribute.videoblocks.com?utm_medium=XSell&amp;utm_source=VBFooter&amp;utm_campaign=VBFooter" target="_blank">Submit Content</a></li>
+                            <li><a href="http://education.videoblocks.com/?utm_medium=XSell&amp;utm_source=VBFooter&amp;utm_campaign=VBFooterEDU" target="_blank">VideoBlocks for Education</a></li>
+                            <li><a href="http://support.videoblocks.com/" target="_blank">Support</a></li>
+                            <li><a href="http://support.videoblocks.com/" target="_blank">Frequently Asked Questions</a></li>
+                            <li><a href="http://support.videoblocks.com/" target="_blank">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-12 footer-categories">
+                    <h4>Browse by Category</h4>
+                    <ul>
+                                                    <li><a href="/videos/footage/360-files">360°/VR</a></li>
+                                                    <li><a href="/videos/footage/aerial">Aerial</a></li>
+                                                    <li><a href="/videos/templates/ae-templates">After Effects Templates</a></li>
+                                                    <li><a href="/videos/footage/animals">Animals</a></li>
+                                                    <li><a href="/videos/templates/apple-motion-templates">Apple Motion Templates</a></li>
+                                                    <li><a href="/videos/footage/business-and-professions">Business and Professions</a></li>
+                                                    <li><a href="/videos/footage/effects-and-lower-thirds">Effects and Lower Thirds</a></li>
+                                                    <li><a href="/videos/footage/food-and-beverage">Food and Beverage</a></li>
+                                                    <li><a href="/videos/footage/historical-and-archival">Historical and Archival</a></li>
+                                                    <li><a href="/videos/footage/holidays-and-celebrations">Holidays and Celebrations</a></li>
+                                                    <li><a href="/videos/motion-backgrounds/motion-backgrounds">Motion Backgrounds</a></li>
+                                                    <li><a href="/videos/footage/nature">Nature</a></li>
+                                                    <li><a href="/videos/footage/people">People</a></li>
+                                                    <li><a href="/videos/footage/places-and-landmarks">Places and Landmarks</a></li>
+                                                    <li><a href="/videos/footage/slow-motion">Slow Motion</a></li>
+                                                    <li><a href="/videos/footage/sports-and-recreation">Sports and Recreation</a></li>
+                                                    <li><a href="/videos/footage/technology">Technology</a></li>
+                                                    <li><a href="/videos/footage/time-lapse">Time Lapse</a></li>
+                                                    <li><a href="/videos/footage/transportation">Transportation</a></li>
+                                            </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-12 blog-updates">
+                    <h4>Latest from the Blog</h4>
+
+                    
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <p>
+                                    <img src="//d2436y6oj07al2.cloudfront.net/assets/vbblog/2016/06/Action-Movie-Kid-1-100x100.png" alt="How a Dreamworks Dad Uses After Effects to Turn His Son into an Epic Superhero" width="75" height="75" />
+                                </p>
+                            </div>
+
+                            <p class="col-xs-8">
+                                <a href="http://content.videoblocks.com/tipstricks/adobe/adobe-after-effects/how-to-use-after-effects-to-become-an-epic-superhero/">
+                                    How a Dreamworks Dad Uses After Effects to Turn His Son into an Epic Superhero                                </a>
+                            </p>
+                        </div>
+
+                    
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <p>
+                                    <img src="//d2436y6oj07al2.cloudfront.net/assets/vbblog/2016/06/Header-100x100.jpg" alt="A Beginner’s Guide to Creating After Effects  Templates: 5 Key Factors for Profitable AE  Designs" width="75" height="75" />
+                                </p>
+                            </div>
+
+                            <p class="col-xs-8">
+                                <a href="http://content.videoblocks.com/tipstricks/a-beginners-guide-to-creating-after-effects-templates-5-key-factors-for-profitable-ae-designs/">
+                                    A Beginner’s Guide to Creating After Effects  Templates: 5 Key Factors for Profitable AE  Designs                                </a>
+                            </p>
+                        </div>
+
+                    
+                </div>
+
+
+            </div>
+
+            <div class="row border-railroad">
+                <div class="col-lg-5 other-sites">
+                    <h4>Our Other Sites</h4>
+                    <a href="http://www.graphicstock.com" target="_blank">GraphicStock.com</a>
+                    <a href="http://www.audioblocks.com" target="_blank">AudioBlocks.com</a>
+                </div>
+                <div class="col-lg-7 social-icons">
+                    <h4>We're a Social Bunch!</h4>
+
+                    <a href="https://www.facebook.com/VideoBlocks" target="_blank"><i class="fa fa-facebook"></i>Facebook</a>
+
+                    <a href="https://www.youtube.com/user/VideoBlockscom"><i class="fa fa-youtube"></i>Youtube</a>
+
+                    <a href="https://twitter.com/VideoBlocks" target="_blank"><i class="fa fa-twitter"></i>Twitter</a>
+
+                    <a href="https://plus.google.com/114367943543521036571" target="_blank"><i class="fa fa-google-plus"></i>Google+</a>
+
+                    <a href="https://www.pinterest.com/videoblocks" target="_blank"><i class="fa fa-pinterest"></i>Pinterest</a>
+
+                    <a href="https://www.instagram.com/videoblocks/" target="_blank"><i class="fa fa-instagram"></i>Instagram</a>
+                </div>
+            </div>
+
+        
+        <div class="row">
+            <div class="col-md-6 footer-logo">
+                <img src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/VideoBlocksLogo-gray.png" />
+
+                <p>
+                    <span>2016 © VideoBlocks</span>
+                </p>
+
+            </div>
+            <div class="col-lg-6 copyright">
+                <a href="/documents/VideoBlocks/VideoBlocks_Terms_of_Service_2016-03-25.pdf" target="_blank">Terms of Service</a> |
+                <a href="/documents/VideoBlocks/privacy.html" target="_blank">Privacy policy</a> |
+                <a href="/documents/VideoBlocks/20150327_videoblocks_customer_royalty_free_license_agreement.pdf" target="_blank">Royalty Free License
+                    Agreement</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="loading-overlay" style="opacity: 0.9;"></div>
+        <img src="https://d1ow200m9i3wyh.cloudfront.net/img/assets/common/images/loader.gif" alt="Processing" class="loader" width="80" height="80" />
+    </div>
+
+</footer>
+
+    
+
+</div><script type="text/javascript" id="">(function(){function d(a,b){this._timeoutReference=this._intervalReference=null;this._millisecondsBetweenChecks=50;this._millisecondsToWaitBeforeAutoClearing=null;this._doCallbackOnAutoClearing=!1;this._conditionFunction=a;this._callbackFunction=b}var c=c||{};d.prototype.start=function(){var a=this;this._intervalReference=setInterval(function(){a._conditionFunction()&amp;&amp;(a._callbackFunction(),a.clear())},a._millisecondsBetweenChecks);a._millisecondsToWaitBeforeAutoClearing&amp;&amp;(this._timeoutReference=
+setTimeout(function(){a._doCallbackOnAutoClearing&amp;&amp;a._callbackFunction();a.clear()},a._millisecondsToWaitBeforeAutoClearing));return a};d.prototype.clear=function(){this._intervalReference&amp;&amp;clearInterval(this._intervalReference);this._timeoutReference&amp;&amp;clearInterval(this._timeoutReference);return this};d.prototype.checkEvery=function(a){this._millisecondsBetweenChecks=a;return this};d.prototype.stopTryingAfter=function(a){this._millisecondsToWaitBeforeAutoClearing=a;return this};d.prototype.doCallbackOnAutoClearing=
+function(a){"undefined"===typeof a&amp;&amp;(a=!0);this._doCallbackOnAutoClearing=a;return this};c.Waiter=function(a,b){return new d(a,b)};c.isJQueryLoaded=function(){return window.$&amp;&amp;window.$.isReady};c.isSegmentLoaded=function(){return window.analytics};c.whenJQueryLoads=function(a){c.Waiter(function(){return c.isJQueryLoaded()},function(){a()}).start()};c.whenSegmentLoads=function(a){c.Waiter(function(){return c.isSegmentLoaded()},function(){a()}).start()};c.whenSegmentAndJQueryLoads=function(a){c.Waiter(function(){return c.isJQueryLoaded()&amp;&amp;
+c.isSegmentLoaded()},function(){a()}).start()};var g={_sdlhelpers:c,isShown:!1,showWhenReady:!1,conditionsToHideLoader:[],loaderWaiter:null,preloaderWaiter:null,callbacks:[],showLoaderUntil:function(a,b){a()?b&amp;&amp;b():(this.conditionsToHideLoader.push(a),this.showLoader(),this.startWaiter(),b&amp;&amp;this.callbacks.push(b))},showLoader:function(){var a=this;a.isShown||(document.body?(c.noJQuery(document.body).addClass("loading"),a.isShown=!0):(a.showWhenReady=!0,a.showLoaderWhenBodyAvailable()))},showLoaderWhenBodyAvailable:function(){var a=
+this;this.preloaderWaiter||(this.preloaderWaiter=this._sdlhelpers.Waiter(function(){return document.body},function(){a.showWhenReady&amp;&amp;a.showLoader()}).start())},startWaiter:function(){var a=this;a.loaderWaiter||(a.loaderWaiter=a._sdlhelpers.Waiter(function(){return a.checkAllConditions()},function(){a.hideLoader();a.runCallbacks()}).start())},checkAllConditions:function(){for(var a,b=0;b&lt;this.conditionsToHideLoader.length;b++)if(a=this.conditionsToHideLoader[b],!a())return!1;return!0},hideLoader:function(){this.isShown&amp;&amp;
+(c.noJQuery(document.body).removeClass("loading"),this.isShown=!1);this.showWhenReady=!1;this.loaderWaiter=null},runCallbacks:function(){for(var a,b=0;b&lt;this.callbacks.length;b++)if(a=this.callbacks[b])a(),delete this.callbacks[b]}};c.showLoaderUntil=function(a,b){g.showLoaderUntil(a,b)};c.getHTMLNodeDataForTracking=function(a){if(!c.isJQueryLoaded())return window.console&amp;&amp;window.console.log("Error getting HTML node data: jQuery ($) not yet loaded."),{};a=$(a);if(1===a.length){var b={tag:a.prop("tagName").toLowerCase(),
+classes:[],innerText:a.text().trim().substring(0,100).replace(/ {2,}/g," "),sourcePath:window.location.pathname,sourceUrl:window.location.href};$.each(a[0].attributes,function(){b[this.name]||(b["attribute-"+this.name]=this.value)});if(a.attr("class")){var f=a.attr("class").split(/\s+/),d;for(d in f)a=$.trim(f[d]),""!==a&amp;&amp;b.classes.push(a)}return b}};c.loadExternalScript=function(a,b){var c=document.createElement("script");c.type="text/javascript";c.readyState?c.onreadystatechange=function(){if("loaded"==
+c.readyState||"complete"==c.readyState)c.onreadystatechange=null,b&amp;&amp;b()}:c.onload=function(){b&amp;&amp;b()};c.src=a;document.getElementsByTagName("head")[0].appendChild(c)};var e=function(a){this.node=a;return this};e.prototype.addClass=function(a){var b=this.node.className.split(" ");-1===b.indexOf(a)&amp;&amp;(b[b.length]=a,this.node.className=b.join(" "));return this};e.prototype.removeClass=function(a){var b=this.node.className.split(" ");-1!==b.indexOf(a)&amp;&amp;(delete b[b.indexOf(a)],this.node.className=b.join(" "));
+return this};e.prototype.append=function(a){this.node.innerHTML+=a;return this};c.noJQuery=function(a){return new e(a)};c.safelyGetObjectProperty=function(a,b){if("undefined"===typeof b)b=window;else if("object"!==typeof b){window.console&amp;&amp;window.console.log("Error: Second argument of 'safelyGetObjectProperty()' must be an object.");return}if("string"!==typeof a)window.console&amp;&amp;window.console.log("Error: First argument of 'safelyGetObjectProperty()' must be a string. Multiple properties should be separated by periods.");
+else{for(var c=a.split("."),d,e=0;e&lt;c.length;e++)if(d=c[e],"undefined"!==typeof b[d])b=b[d];else return null;return b}};window._sdlhelpers=c})();</script><script type="text/javascript" id="">if(google_tag_manager["GTM-5G8BQF"].macro('gtm1466848200393')){var trackOptimizelyTestsWhenReady=function(){window._sdlhelpers.Waiter(function(){return window.OptimizelyCapture},function(){$(OptimizelyCapture.init)}).stopTryingAfter(2E4).start()};window._sdlhelpers.showLoaderUntil(function(){return window.optimizely},trackOptimizelyTestsWhenReady);_sdlhelpers.loadExternalScript("//cdn.optimizely.com/js/2164741039.js")};</script>
+<script type="text/javascript" id="">(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:45020,hjsv:5};d=c.getElementsByTagName("head")[0];b=c.createElement("script");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,"//static.hotjar.com/c/hotjar-",".js?sv\x3d");</script>
+<script type="text/javascript" id="">(function(b,c,e,g,d){var f,a;b[d]=b[d]||[];f=function(){var a={ti:"4061738"};a.q=b[d];b[d]=new UET(a);b[d].push("pageLoad")};a=c.createElement(e);a.src=g;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&amp;&amp;"loaded"!==b&amp;&amp;"complete"!==b||(f(),a.onload=a.onreadystatechange=null)};c=c.getElementsByTagName(e)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript>&lt;img src="//bat.bing.com/action/0?ti=4061738&amp;amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;"&gt;</noscript>
+<script type="text/javascript" id="">google_tag_manager["GTM-5G8BQF"].macro('gtm1466848200395')||_sdlhelpers.whenSegmentAndJQueryLoads(function(){var a=$("a");$(a).on("click",function(){analytics.track("Clicked Link",_sdlhelpers.getHTMLNodeDataForTracking(this))})});</script>
+<script type="text/javascript" id="">google_tag_manager["GTM-5G8BQF"].macro('gtm1466848200396')||_sdlhelpers.whenSegmentAndJQueryLoads(function(){$("#similar-clips .stock-item").each(function(){var a=$(this).find(".item-title").text(),a=a.trim().substring(0,100).replace(/[\s\u21b5]{2,}/g," ");$(this).find("a").on("click",function(){var b=_sdlhelpers.getHTMLNodeDataForTracking(this);b.similarClipTitle=a;analytics.track("Clicked Similar Clip",b)})})});</script>
+<!-- end wrapper -->
+
+<!--[if lt IE 9]>
+<script src="/assets/common/javascripts/independent/html5shiv.js"></script>
+<script src="/assets/common/javascripts/independent/respond.min.js"></script>
+<![endif]-->
+
+
+                <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.3569313657762647"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.7574920737188962" width="0" height="0" src="https://bat.r.msn.com/action-uic/0?ti=4061738&amp;Ver=2&amp;mid=9d48127f-0ffa-7d8f-085d-24bd7aa48619&amp;evt=pageLoad&amp;pi=1579648567&amp;lg=en-US&amp;sw=1920&amp;sh=1080&amp;sc=24&amp;tl=Folder - VideoBlocks&amp;p=https%3A%2F%2Fwww.videoblocks.com%2Fmember%2Fbins%2F&amp;r=&amp;rn=798512" /><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.015025378841315717" width="0" height="0" src="https://bat.bing.com/action/0?ti=4061738&amp;Ver=2&amp;mid=9d48127f-0ffa-7d8f-085d-24bd7aa48619&amp;evt=pageLoad&amp;pi=1579648567&amp;lg=en-US&amp;sw=1920&amp;sh=1080&amp;sc=24&amp;tl=Folder - VideoBlocks&amp;p=https%3A%2F%2Fwww.videoblocks.com%2Fmember%2Fbins%2F&amp;r=&amp;rn=5203" /></div><script type="text/javascript">
+                  maxmind_user_id = 107840;
+                  (function() {
+                    var loadDeviceJs = function() {
+                      var element = document.createElement('script');
+                      element.async = true;
+                      element.src = ('https:' == document.location.protocol ? 'https:' : 'http:')
+                        + '//device.maxmind.com/js/device.js';
+                      document.body.appendChild(element);
+                    };
+                    if (window.addEventListener) {
+                      window.addEventListener('load', loadDeviceJs, false);
+                    } else if (window.attachEvent) {
+                      window.attachEvent('onload', loadDeviceJs);
+                    }
+                  })();
+                </script>
+
+        <script>(function(){
+            window._fbds = window._fbds || {};
+            _fbds.pixelId = 250655865113226;
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            })();
+            window._fbq = window._fbq || [];
+            window._fbq.push(["track", "PixelInitialized", {}]);
+        </script>
+        <noscript>&lt;img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=250655865113226&amp;amp;ev=NoScript" /&gt;</noscript>
+<script type="text/javascript">
+window.fkVisitorData = window.fkVisitorData || function() {
+    try {
+        return JSON.parse(atob("eyJjdXN0b21fcHJvcGVydGllcyI6eyJBQl9URVNUX1JORCI6NTYsIkNBTl9BQ0NFU1NfTUFSS0VUUExBQ0UiOnRydWUsInNpdGVfaWQiOjEsInVzZXJfaWRlbnRpZmllciI6IjQxOTI2MDhiYTYzM2FmZGFmZGFhMDkxOGE5ZmY3YWMwM2RkNDRiMWExZTQ3NmJjMTU5Yjg4ZDhkNDQ4NTFmY2YiLCJlbWFpbCI6Im11a2ltc2NyZWF0aW9uQGdtYWlsLmNvbSIsImZpcnN0X25hbWUiOiJNdWtpbXVsIGFud2FyIG11a2ltIiwicGxhbl9pZCI6NDMwMCwic3RhdHVzIjoiYWN0aXZlIiwibWVtYmVyX2lkIjo0Nzc1MjksIm1lbWJlcl91bmlxdWVfaWQiOiJHV0FKQ254aFZjSXJJVlIiLCJiaWxsaW5nX2FjY291bnRfdHlwZSI6IkxpbWVsaWdodCIsImRhdGVfZmlyc3RfcGF5bWVudCI6IjIwMTQtMTAtMTUgMDI6MDc6MTMiLCJkYXRlX3NpZ25lZCI6IjIwMTQtMDUtMDkgMDQ6MzI6MjYiLCJkYXlzX2xlZnRfdGlsbF9uZXh0X2JpbGwiOjI5MCwiZGF0ZV91cGRhdGVkIjoiMjAxNi0wNC0xMiAxMjoxNTo1NyIsImhhc192aWV3ZWRfY29uZmlybWF0aW9uX3BhZ2UiOmZhbHNlLCJpc19saW1lX2N1c3RvbWVyIjp0cnVlLCJpc19vbl90cmlhbCI6ZmFsc2UsImlzX3ByZW1pdW0iOnRydWUsImxhc3RfbmFtZSI6Ik11a2ltIiwic3Vic2NyaXB0aW9uX2VuZF9kYXRlIjoiMjAxNy0wNC0xMSIsImRheXNfdW50aWxfY2NfZXhwaXJhdGlvbiI6MjQ4LCJOVU1fT0ZfVElNRVNfQ0xJQ0tFRF9NQVJLRVRQTEFDRV9UQUIiOiIxIiwiY2FtcGFpZ25fY29kZSI6IihvcmdhbmljKSIsImNhbXBhaWduX21lZGl1bSI6ImNwYyIsImNhbXBhaWduX3NvdXJjZSI6Imdvb2dsZSIsImNvbXBhbnlfbmFtZSI6IiIsImhhc19hZGRyZXNzIjp0cnVlLCJwbGFuX3RpdGxlIjoiJDE5OFwveWVhciBQcmVtaXVtIFN1YnNjcmlwdGlvbiIsInBsYW5fZGVzY3JpcHRpb24iOiI5MCUgT2ZmIGEgWWVhciBvZiBQcmVtaXVtIEZlYXR1cmVzIC0gSnVzdCAkMTk4IiwicGxhbl9iaWxsaW5nX2Ftb3VudCI6IjE5OC4wMCIsInBsYW5fYmlsbGluZ19pbnRlcnZhbF9kYXlzIjozNjUsInBsYW5fdHlwZSI6IlByZW1pdW0iLCJDQU5fRE9XTkxPQURfVE9fRFJPUEJPWCI6dHJ1ZSwiQ0FOX0JBVENIX0RPV05MT0FEIjp0cnVlLCJDQU5fVVNFX0NMSUVOVF9GRUVEQkFDS19GT1JfQklOUyI6dHJ1ZSwiQ0FOX0lQX0FVVEhFTlRJQ0FURSI6IiIsIlRSSUFMX0RBSUxZX0RPV05MT0FEX0xJTUlUIjoiIiwiVFJJQUxfVE9UQUxfRE9XTkxPQURfTElNSVQiOiIiLCJQTEFOX0RBSUxZX0RPV05MT0FEX0xJTUlUIjoiIiwiUExBTl9UT1RBTF9ET1dOTE9BRF9MSU1JVCI6IiIsIkFMTE9XRURfU1VCTUVNQkVSX0NPVU5UIjo1LCJDQU5fRE9XTkxPQURfNEtfQ09OVEVOVCI6dHJ1ZSwiQ0FOX0FDQ0VTU19BVURJTyI6ZmFsc2UsInRlbXBfY2FyZF9tZW1iZXJfaWQiOiIxODIxNTQ0In19"));
+    } catch (e) {
+        console.log("Could not parse data");
+    }
+}
+</script>
+            <script type="text/javascript">
+            adroll_adv_id = "BDOBRUA26FBY5IQ6E45J4W";
+            adroll_pix_id = "7CJL3COOFJHF3JUES56ELH";
+            (function () {
+                var oldonload = window.onload;
+                window.onload = function(){
+                    __adroll_loaded=true;
+                    var scr = document.createElement("script");
+                    var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                    scr.setAttribute('async', 'true');
+                    scr.type = "text/javascript";
+                    scr.src = host + "/j/roundtrip.js";
+                    ((document.getElementsByTagName('head') || [null])[0] ||
+                        document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+                    if(oldonload){oldonload()}};
+            }());
+            </script>
+    <script type="text/javascript">
+        window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c&lt;p.length;c++)heap[p[c]]=o(p[c])};
+        heap.load("3116668232");
+    </script>
+ <div id="outdated"> <h6>Please upgrade your browser to use VideoBlocks.</h6> <p>VideoBlocks works best with the latest technology. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Please upgrade your browser to ensure the best experience.</a> </p> <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">×</a></p> </div> <script> function addLoadEvent(func) { var oldonload = window.onload; if (typeof window.onload != 'function') { window.onload = func; } else { window.onload = function() { if (oldonload) { oldonload(); } func(); } } } addLoadEvent(function(){ outdatedBrowser({ lowerThan: 'transform', languagePath: '' }) }); </script>        <script type="text/javascript" defer="" src="https://d1ow200m9i3wyh.cloudfront.net/js/e14733c109cc78d4d15b5060885c28db.js"></script>
+    
+
+    <script type="text/javascript">
+        window.onload=function(){               $(document).ready(function () {
+
+                                (function ($) {
+                    var _Template_args = {};
+                    var _Template = new Template(_Template_args);
+                }(jQuery));
+                                (function ($) {
+                    var _VideoSiteMainNavWidgetView_args = {"loginToggleClass":"toggle-login","loginPopupClass":"login-popup","loginFormId":"login-form","SUBMIT_START_EVENT":"submit-start","loginFormWrapperClass":"login-form-wrapper","cookiesDisabledWarningClass":"no-cookie-warning","highlightClass":"highlight","browseStockVideoLinkClass":"browse-stock-video-link","browseMotionBackgroundsLinkClass":"browse-motion-backgrounds-link","browseAfterEffectsLinkClass":"browse-after-effects-link","memberDashboardLinkClass":"member-dashboard-link","accountLogoutLinkClass":"member-account-logout","mainSearchInput":"srch-term","browseStockVideoUrl":"/videos/footage","browseMotionBackgroundsUrl":"/videos/motion-backgrounds","browseAfterEffectsUrl":"/videos/templates","memberDashboardUrl":"/member/profile/"};
+                    var _VideoSiteMainNavWidgetView = new VideoSiteMainNavWidgetView(_VideoSiteMainNavWidgetView_args);
+                }(jQuery));
+                                (function ($) {
+                    var _SearchTypeAhead_args = {"typeAheadUrl":"/api/typeahead/","searchFormClass":"navbar-search","searchFieldID":"srch-term","highlightKeyword":true};
+                    var _SearchTypeAhead = new SearchTypeAhead(_SearchTypeAhead_args);
+                }(jQuery));
+                                (function ($) {
+                    var _ListenLoopTrackingPixelWidget_args = {"apiUrl":"//llapi.apiservicesblocks.com"};
+                    var _ListenLoopTrackingPixelWidget = new ListenLoopTrackingPixelWidget(_ListenLoopTrackingPixelWidget_args);
+                }(jQuery));
+                                (function ($) {
+                    var _ExplorerMemberBins_args = {"tableId":"project-bins-datatable","memberBinsApiRoute":"/api/member/bins","bin_delete_class":"delete-bin","bin_delete_confirm_message":"Are you sure you want to delete?","bin_delete_url":"/member/bin/delete/","response_placeholder":"alert_placeholder","binsPerPage":20,"projectBinSortTypeParam":"project_bin_sort_type","binSortTypeSelectId":"project-bins-sort-select","searchInputId":"project-bins-search-input","binWidgetWrapperId":"project-bins-explorer-widget-wrapper","binCountLabel":"project-bins-count-label"};
+                    var _ExplorerMemberBins = new ExplorerMemberBins(_ExplorerMemberBins_args);
+                }(jQuery));
+                                (function ($) {
+                    var _SiteTopHeaderWidgetView_args = {"cookieName":null,"showNow":true};
+                    var _SiteTopHeaderWidgetView = new SiteTopHeaderWidgetView(_SiteTopHeaderWidgetView_args);
+                }(jQuery));
+                                (function ($) {
+                    var _VideoShoppingCartDropdownWidgetView_args = [];
+                    var _VideoShoppingCartDropdownWidgetView = new VideoShoppingCartDropdownWidgetView(_VideoShoppingCartDropdownWidgetView_args);
+                }(jQuery));
+                                (function ($) {
+                    var _FormInPopupWidgetView_args = {"popupId":"new-bin-modal","delegateElement":"body","delegateFilter":".new-bin","centerOnOpen":false,"appendToBody":false,"OPENING_EVENT":"opening","SHOW_ON_LOAD":false,"formId":"new-bin","messagePlaceholderId":"new-bin-message-placeholder","reloadPage":true,"SUBMIT_AJAX_SUCCESS_EVENT":"submit-success","SUBMIT_AJAX_ERROR_EVENT":"submit-error"};
+                    var _FormInPopupWidgetView = new FormInPopupWidgetView(_FormInPopupWidgetView_args);
+                }(jQuery));
+                                (function ($) {
+                    var _FormWidgetView_args = {"formId":"new-bin","useAjax":true,"overlayEnabled":true,"shouldCloseModalAfterSubmit":false,"idOfModalToClose":null,"idOfElementToHide":null,"ajaxUrl":"/member/bin/add/","ajaxMethod":"POST","SUBMIT_START_EVENT":"submit-start","SUBMIT_AJAX_SUCCESS_EVENT":"submit-success","SUBMIT_AJAX_ERROR_EVENT":"submit-error","MESSAGE_AREA_CLASS":"form-message"};
+                    var _FormWidgetView = new FormWidgetView(_FormWidgetView_args);
+                }(jQuery));
+                
+            });          };
+    </script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"856189673f","applicationID":"4085922","transactionName":"Ml1SNhdZCEoDWxULWQsXcxcWTAlUTVUED1QASh8ADFYVFg==","queueTime":0,"applicationTime":161,"atts":"HhpRQF9DG0Q=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div id="ads"></div><iframe id="font-resize-frame-770" class="font-resize-helper" style="width: 100em; height: 10px; position: absolute; border-width: 0px; top: -9999px; left: -9999px;"></iframe><div id="supersized-loader"></div><ul id="supersized"></ul><script async="" src="https://device.maxmind.com/js/device.js"></script><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul><embed src="https://device.maxmind.com/flash/Device.swf" id="__mmapiwsFlash" allowscriptaccess="always" style="height: 0px; width: 0px; overflow: hidden; position: fixed; right: 100%;" /><div id="fk-popovercontainer" class="fkstrap"></div><div id="fk-floatingImageContainer" class="fkstrap" style="display:none">  <img data-paramname="user-image" class="fkfloatingimage" src="//gravatar.com/avatar/cf19443a95e7a032d6e427ffa7a4acb9.png?d=mm&amp;s=300" /></div><a href="javascript:void(0);" id="fk-feedback-tab" class="fkstrap hideFeedbackTab" style="display:none;">   Feedback<div id="hidden-div" class="moveHiddenDiv"></div></a></body></html>
