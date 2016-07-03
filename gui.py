@@ -32,6 +32,7 @@ email.grid(row = 0, column = 1)
 
 passwd = ttk.Entry(root, width = 100)
 passwd.grid(row = 1, column = 1)
+passwd.config(show = "*")
 
 folderLink = Text(root, width = 75, height = 5)
 folderLink.grid(row = 2, column = 1)
