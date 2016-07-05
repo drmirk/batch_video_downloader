@@ -80,10 +80,12 @@ downloadButton.config(command = getInfo)
 
 def startDownload():
     ## Imported selenium webdriver and time module
+    ## and OS module
 
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys as keys
     import time
+    import os
 
     ## used chrome as primary browser
     ## store the chrome app in a place and show the path
@@ -116,6 +118,7 @@ def startDownload():
 
     ## check to page load and find all the videos download links
     check = True
+    time.sleep(5)
     while(check):
         if(driver.title == "My Folder - VideoBlocks"):
             download_links = driver.find_elements_by_xpath("//*[@id='cool-new-btn']")
@@ -126,11 +129,20 @@ def startDownload():
     ## then press the first link
     tableRow = 0
     for links in download_links:
+        ## check if there is any unfinished chrome download in the download directory
+        ## if there are less than 4 unfinished chrome download, only then clicks the download button
+        crDownload = 0
+        allDir = os.listdir("C:\\Users\\mdibr\\Downloads")
+        for files in allDir:
+            if(files[-11:] == ".crdownload"):
+                crDownload = crDownload + 1
+        
         tableRow = tableRow + 1
         ## completely load a page
         check = True
         while(check):
-            if(driver.title == "My Folder - VideoBlocks"):
+            ## checks the page is loaded and also number of active download is less than 4
+            if((driver.title == "My Folder - VideoBlocks") and (crDownload < 4)):
                 links.click()
                 time.sleep(2)
                 check = False
