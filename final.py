@@ -114,6 +114,8 @@ def startDownload():
         if(driver.title == "Members Dashboard - VideoBlocks"):
             driver.get(folderAddress)
             check = False
+        else:
+            time.sleep(2)
 
 
     ## check to page load and find all the videos download links
@@ -124,28 +126,32 @@ def startDownload():
             download_links = driver.find_elements_by_xpath("//*[@id='cool-new-btn']")
             print(len(download_links))
             check = False
+        else:
+            time.sleep(2)
 
     ## iterate through each links and create a xpath
     ## then press the first link
     tableRow = 0
-    for links in download_links:
-        ## check if there is any unfinished chrome download in the download directory
-        ## if there are less than 4 unfinished chrome download, only then clicks the download button
-        crDownload = 0
-        allDir = os.listdir("C:\\Users\\mdibr\\Downloads")
-        for files in allDir:
-            if(files[-11:] == ".crdownload"):
-                crDownload = crDownload + 1
-        
+    for links in download_links:        
         tableRow = tableRow + 1
         ## completely load a page
         check = True
         while(check):
+            ## check if there is any unfinished chrome download in the download directory
+            ## if there are less than 4 unfinished chrome download, only then clicks the download button
+            crDownload = 0
+            allDir = os.listdir("C:\\Users\\mdibr\\Downloads")
+            for files in allDir:
+                if(files[-11:] == ".crdownload"):
+                    crDownload = crDownload + 1
+
             ## checks the page is loaded and also number of active download is less than 4
-            if((driver.title == "My Folder - VideoBlocks") and (crDownload < 4)):
+            if((driver.title == "My Folder - VideoBlocks") and (crDownload < 3)):
                 links.click()
-                time.sleep(2)
+                time.sleep(3)
                 check = False
+            else:
+                time.sleep(5)
         topXPATH = "//*[@id='ssw-table']/tbody/tr[" + str(tableRow) + "]/td[6]/div/div/ul/li[1]"
         download_btn = driver.find_element_by_xpath(topXPATH)
         download_btn.click()
