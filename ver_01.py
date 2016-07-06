@@ -1,3 +1,9 @@
+## This version takes username, email and folder link
+## then downloads video one by one from that page only
+## so if that folder had more than one page, it wont go
+## to other pages.
+## Also, this works with by checking ".crdownload" in
+## the pc download folder only
 ########################################################
 ########################################################
 
