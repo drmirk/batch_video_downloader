@@ -1,6 +1,6 @@
-emailAddress = "mukimscreation@gmail.com"
-password = "abidbari"
-folderAddress = "https://www.videoblocks.com/member/bin/view/Nm93E8Tg8t2DoilpXFlAbFD3P"
+emailAddress = ""
+password = ""
+folderAddress = "https://www.videoblocks.com/member/bin/view/sm6ixOhPr0CYQlV4qRyaC9Iey"
 pageNumber = "2"
 
 
